@@ -14,9 +14,12 @@
     <name>postgress</name>
     <description>Demo project for Spring Boot</description>
 
-    <properties>
+	<properties>
         <maven.compiler.release>8</maven.compiler.release>
-    </properties>
+		<sonar.projectKey>hosssszu_restapi</sonar.projectKey>
+		<sonar.organization>hosssszu</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
 
     <dependencies>
         <dependency>
